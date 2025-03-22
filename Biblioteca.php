@@ -100,7 +100,7 @@ class Biblioteca {
 
     public function getNameBook($libroId) {
         foreach ($this->libros as $libro) {
-            if ($libro->id == $libroId) {
+            if ($libro->isbn == $libroId) {
                 return $libro->titulo;
             }
         }
