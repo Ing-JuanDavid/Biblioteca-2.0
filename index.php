@@ -17,7 +17,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     $nuevoLibro = new Libro($isbn, $titulo, $autor, $materia);
     $biblioteca->addBook($nuevoLibro);
-    $biblioteca->saveData();
 
     // Redirigir para evitar reenvío del formulario
     header("Location: index.php");

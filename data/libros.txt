@@ -1,6 +1,2 @@
-1|Harry Potter||Historia|Juan
-2|JSjdjdkd||sdfdfdf|2838933
-3|Harry Potter||Historia|Juan
-isb233|Harry Potter||Juan|Historia
-isb233|Harry Potter||Juan|Historia
-isb233|Harry Potter||2838933|ff
+isb233|Harry Potter|Juan|Historia
+isb233|JSjdjdkd|2838933|sdfdfdf

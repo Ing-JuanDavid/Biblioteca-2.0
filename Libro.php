@@ -21,7 +21,7 @@ class Libro {
     }
 
     public function toLine(){
-        return($this->isbn."|".$this->titulo."|".$this->fechaPublicacion."|".$this->autor."|".$this->materia);
+        return($this->isbn."|".$this->titulo."|".$this->autor."|".$this->materia);
     }
 
     public static function lineToLibro($linea) {
